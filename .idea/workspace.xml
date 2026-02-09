@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/multithreading.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample9.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="39QMZ5S2lUSg29mJBvvEtIbUxg3" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ThreadExample10.executor": "Run",
+    "Application.ThreadExample2.executor": "Run",
+    "Application.ThreadExample3.executor": "Run",
+    "Application.ThreadExample5.executor": "Run",
+    "Application.ThreadExample6.executor": "Run",
+    "Application.ThreadExample7.executor": "Run",
+    "Application.ThreadExample8.executor": "Run",
+    "Application.ThreadExample9.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="" />
+      <created>1770623894577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770623894577</updated>
+    </task>
+    <servers />
+  </component>
+</project>
