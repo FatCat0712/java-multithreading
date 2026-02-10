@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/multithreading.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread/ThreadExample9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/virtualthreads/VirtualThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/virtualthreads/VirtualThreadExample2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +47,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/projects/multithreading"
   }
 }]]></component>
   <component name="TaskManager">
