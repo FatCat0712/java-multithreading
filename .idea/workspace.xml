@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/concurrency/memory/MyObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/memory/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/memory/SeparateObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/memory/SharedObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/MixedSynchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/MultipleMonitorObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/Reentrance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SharedMonitorObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SharedMonitorObjectMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/StaticSynchronizedExchanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SyncCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SyncCounterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SynchronizedExchanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SynchronizedExchangerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SynchronizedLambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +44,8 @@
   "keyToString": {
     "Application.SeparateObjects.executor": "Run",
     "Application.SharedObjects.executor": "Run",
+    "Application.SyncCounterMain.executor": "Run",
+    "Application.SynchronizedExchangerMain.executor": "Run",
     "Application.ThreadExample10.executor": "Run",
     "Application.ThreadExample2.executor": "Run",
     "Application.ThreadExample3.executor": "Run",
