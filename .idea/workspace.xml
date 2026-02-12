@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/MixedSynchronization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/MultipleMonitorObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/Reentrance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SharedMonitorObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SharedMonitorObjectMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/StaticSynchronizedExchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SyncCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SyncCounterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SynchronizedExchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SynchronizedExchangerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/synchronize/SynchronizedLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/volatileex/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/volatileex/Exchanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/volatileex/Exchanger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/volatileex/Values.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,31 +33,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SeparateObjects.executor": "Run",
-    "Application.SharedObjects.executor": "Run",
-    "Application.SyncCounterMain.executor": "Run",
-    "Application.SynchronizedExchangerMain.executor": "Run",
-    "Application.ThreadExample10.executor": "Run",
-    "Application.ThreadExample2.executor": "Run",
-    "Application.ThreadExample3.executor": "Run",
-    "Application.ThreadExample5.executor": "Run",
-    "Application.ThreadExample6.executor": "Run",
-    "Application.ThreadExample7.executor": "Run",
-    "Application.ThreadExample8.executor": "Run",
-    "Application.ThreadExample9.executor": "Run",
-    "Application.VirtualThreadExample2.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/projects/multithreading"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SeparateObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SharedObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SyncCounterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedExchangerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VirtualThreadExample2.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/multithreading&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="" />
