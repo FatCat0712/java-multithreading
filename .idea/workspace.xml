@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread_pool/PoolThreadRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread_pool/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/thread_pool/ThreadPoolMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/locks/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/locks/CounterLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/locks/CounterSynchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/locks/LockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/locks/LockExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.InheritableThreadLocalBasicExample.executor": "Run",
+    "Application.LockExamples.executor": "Run",
     "Application.RaceConditionsExample.executor": "Run",
     "Application.RaceConditionsExample2.executor": "Run",
     "Application.RaceConditionsExample3.executor": "Run",
