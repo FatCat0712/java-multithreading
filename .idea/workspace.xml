@@ -5,33 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/concurrency/deadlock/DeadlockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/deadlock/Runnable1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/deadlock/Runnable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/deadlock/RunnableSync1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/deadlock/RunnableSync2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/virtual_threads/ExecutorServiceThreadsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/RunnableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/StartAndRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/ThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/ThreadMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/ThreadPriorities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/YieldExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/current_thread/CurrentThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/daemon_thread/DaemonThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/get_set_name_thread/GetNameSetNameExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/interrupt/InterruptExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/interrupt/SleepAndInterrupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/isalive/IsAliveExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/join/JoinExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/platform_thread/PlatformThreadsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/thread_lifecycle/TimeWaitingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/thread_lifecycle/WaitingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/virtual_threads/VirtualThreadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/virtual_threads/VirtualThreadInLoops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/happen_before_guarantee/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/lock_in_java/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/lock_in_java/CounterWithReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/lock_in_java/CounterWithTryLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/lock_in_java/DataStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/race_condition/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/race_condition/BankingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/race_condition/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/thread_safety/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/thread_safety/LogWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/thread_safety/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/synchronisation_techniques/BankAccount.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +43,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BankingApp.executor": "Run",
+    "Application.Counter.executor": "Run",
+    "Application.CounterWithReentrantLock.executor": "Run",
+    "Application.CounterWithTryLock.executor": "Run",
     "Application.CurrentThreadExample.executor": "Run",
     "Application.DaemonThreadExample.executor": "Run",
+    "Application.DataStore.executor": "Run",
     "Application.DeadlockExample.executor": "Run",
     "Application.ExecutorServiceExample.executor": "Run",
     "Application.ExecutorServiceExample2.executor": "Run",
@@ -74,6 +64,7 @@
     "Application.IsAliveExample.executor": "Run",
     "Application.JoinExample.executor": "Run",
     "Application.LockExamples.executor": "Run",
+    "Application.LogWriter.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
     "Application.PlatformThreadsExample.executor": "Run",
@@ -84,6 +75,7 @@
     "Application.RaceConditionsExample5.executor": "Run",
     "Application.RunnableExample.executor": "Run",
     "Application.SeparateObjects.executor": "Run",
+    "Application.Server.executor": "Run",
     "Application.SharedObjects.executor": "Run",
     "Application.SleepAndInterrupt.executor": "Run",
     "Application.StartAndRun.executor": "Run",

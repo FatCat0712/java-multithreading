@@ -1,0 +1,4 @@
+MMeessssaaggee  ffrroomm  tthhrreeaadd  12
+
+Message from thread 1
+Message from thread 2
