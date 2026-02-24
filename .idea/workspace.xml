@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/deadlocks_starvations/TryLockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/deadlocks_starvations/deadlock_detection/DeadlockDetectionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/thread_coordination/CountDownLatchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/thread_coordination/CyclicBarrierExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/thread_coordination/DeadlockExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/thread_coordination/SemaphoreExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/wait_notify/WaitNotifyExample.java" afterDir="false" />
-    </list>
+    <list default="true" id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,10 +99,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projects/multithreading&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/multithreading&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -119,6 +114,13 @@
       <recent name="concurrency.threadlocal" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="" />
@@ -126,6 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770623894577</updated>
+      <workItem from="1771907698590" duration="35000" />
     </task>
     <servers />
   </component>
