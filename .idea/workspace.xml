@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/happen_before_guarantee/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/lock_in_java/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/lock_in_java/CounterWithReentrantLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/lock_in_java/CounterWithTryLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/lock_in_java/DataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/race_condition/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/race_condition/BankingApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/race_condition/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/thread_safety/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/thread_safety/LogWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/synchronisation_techniques/thread_safety/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/synchronisation_techniques/BankAccount.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/deadlocks_starvations/TryLockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/deadlocks_starvations/deadlock_detection/DeadlockDetectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/thread_coordination/CountDownLatchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/thread_coordination/CyclicBarrierExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/thread_coordination/DeadlockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/thread_coordination/SemaphoreExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/wait_notify/WaitNotifyExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,78 +36,83 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BankingApp.executor": "Run",
-    "Application.Counter.executor": "Run",
-    "Application.CounterWithReentrantLock.executor": "Run",
-    "Application.CounterWithTryLock.executor": "Run",
-    "Application.CurrentThreadExample.executor": "Run",
-    "Application.DaemonThreadExample.executor": "Run",
-    "Application.DataStore.executor": "Run",
-    "Application.DeadlockExample.executor": "Run",
-    "Application.ExecutorServiceExample.executor": "Run",
-    "Application.ExecutorServiceExample2.executor": "Run",
-    "Application.ExecutorServiceExample4.executor": "Run",
-    "Application.ExecutorServiceExample5.executor": "Run",
-    "Application.ExecutorServiceExample6.executor": "Run",
-    "Application.ExecutorServiceExample8.executor": "Run",
-    "Application.ExecutorServiceThreadsExample.executor": "Run",
-    "Application.GetNameSetNameExample.executor": "Run",
-    "Application.InheritableThreadLocalBasicExample.executor": "Run",
-    "Application.InterruptExample.executor": "Run",
-    "Application.IsAliveExample.executor": "Run",
-    "Application.JoinExample.executor": "Run",
-    "Application.LockExamples.executor": "Run",
-    "Application.LogWriter.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main2.executor": "Run",
-    "Application.PlatformThreadsExample.executor": "Run",
-    "Application.RaceConditionsExample.executor": "Run",
-    "Application.RaceConditionsExample2.executor": "Run",
-    "Application.RaceConditionsExample3.executor": "Run",
-    "Application.RaceConditionsExample4.executor": "Run",
-    "Application.RaceConditionsExample5.executor": "Run",
-    "Application.RunnableExample.executor": "Run",
-    "Application.SeparateObjects.executor": "Run",
-    "Application.Server.executor": "Run",
-    "Application.SharedObjects.executor": "Run",
-    "Application.SleepAndInterrupt.executor": "Run",
-    "Application.StartAndRun.executor": "Run",
-    "Application.SyncCounterMain.executor": "Run",
-    "Application.SynchronizedExchangerMain.executor": "Run",
-    "Application.ThreadExample.executor": "Run",
-    "Application.ThreadExample10.executor": "Run",
-    "Application.ThreadExample2.executor": "Run",
-    "Application.ThreadExample3.executor": "Run",
-    "Application.ThreadExample5.executor": "Run",
-    "Application.ThreadExample6.executor": "Run",
-    "Application.ThreadExample7.executor": "Run",
-    "Application.ThreadExample8.executor": "Run",
-    "Application.ThreadExample9.executor": "Run",
-    "Application.ThreadLocalBasicExample.executor": "Run",
-    "Application.ThreadLocalInitialValueExample2.executor": "Run",
-    "Application.ThreadLocalLazyInitExample.executor": "Run",
-    "Application.ThreadLocalRemoveExample.executor": "Run",
-    "Application.ThreadMonitor.executor": "Run",
-    "Application.ThreadPoolMain.executor": "Run",
-    "Application.ThreadPriorities.executor": "Run",
-    "Application.TimeWaitingExample.executor": "Run",
-    "Application.VirtualThreadExample.executor": "Run",
-    "Application.VirtualThreadExample2.executor": "Run",
-    "Application.VirtualThreadInLoops.executor": "Run",
-    "Application.WaitingExample.executor": "Run",
-    "Application.YieldExample.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/projects/multithreading"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BankingApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountDownLatchExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Counter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterWithReentrantLock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CounterWithTryLock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CurrentThreadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CyclicBarrierExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DaemonThreadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataStore.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeadlockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorServiceExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorServiceExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorServiceExample4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorServiceExample5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorServiceExample6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorServiceExample8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExecutorServiceThreadsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetNameSetNameExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InheritableThreadLocalBasicExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InterruptExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsAliveExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JoinExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockExamples.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogWriter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlatformThreadsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaceConditionsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaceConditionsExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaceConditionsExample3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaceConditionsExample4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaceConditionsExample5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnableExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SemaphoreExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SeparateObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SharedObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SleepAndInterrupt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StartAndRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SyncCounterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedExchangerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalBasicExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalInitialValueExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalLazyInitExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadLocalRemoveExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadMonitor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPoolMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadPriorities.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimeWaitingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryLockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VirtualThreadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VirtualThreadExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VirtualThreadInLoops.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.YieldExample.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/multithreading&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="concurrency.deadlock" />
