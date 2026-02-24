@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/reentrant_locks/NestedMonitorLockoutDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/reentrant_locks/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/executor_service/ExecutorServiceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/executor_service/ForkJoinExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/executor_service/ThreadPoolExecutorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/deadlocks_starvations/TryLockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/deadlocks_starvations/TryLockExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,7 @@
     "Application.ExecutorServiceExample6.executor": "Run",
     "Application.ExecutorServiceExample8.executor": "Run",
     "Application.ExecutorServiceThreadsExample.executor": "Run",
+    "Application.ForkJoinExample.executor": "Run",
     "Application.GetNameSetNameExample.executor": "Run",
     "Application.InheritableThreadLocalBasicExample.executor": "Run",
     "Application.InterruptExample.executor": "Run",
@@ -92,6 +93,7 @@
     "Application.ThreadLocalLazyInitExample.executor": "Run",
     "Application.ThreadLocalRemoveExample.executor": "Run",
     "Application.ThreadMonitor.executor": "Run",
+    "Application.ThreadPoolExecutorExample.executor": "Run",
     "Application.ThreadPoolMain.executor": "Run",
     "Application.ThreadPriorities.executor": "Run",
     "Application.TimeWaitingExample.executor": "Run",
@@ -137,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1770623894577</updated>
       <workItem from="1771908356090" duration="1239000" />
-      <workItem from="1771915063519" duration="5333000" />
+      <workItem from="1771915063519" duration="10384000" />
     </task>
     <servers />
   </component>
