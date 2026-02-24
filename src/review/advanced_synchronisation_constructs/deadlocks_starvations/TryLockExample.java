@@ -21,8 +21,8 @@ class Resource {
 
 public class TryLockExample {
     public static void main(String[] args) {
-        review.advanced_synchronisation_constructs.deadlocks_starvations.deadlock_detection.Resource resource1 = new review.advanced_synchronisation_constructs.deadlocks_starvations.deadlock_detection.Resource();
-        review.advanced_synchronisation_constructs.deadlocks_starvations.deadlock_detection.Resource resource2 = new review.advanced_synchronisation_constructs.deadlocks_starvations.deadlock_detection.Resource();
+        Resource resource1 = new Resource();
+        Resource resource2 = new Resource();
 
         Thread thread1 = new Thread(() -> accessResource(resource1, resource2));
         Thread thread2 = new Thread(() -> accessResource(resource1, resource2));
@@ -32,7 +32,7 @@ public class TryLockExample {
 
     }
 
-    private static void accessResource(review.advanced_synchronisation_constructs.deadlocks_starvations.deadlock_detection.Resource resource1, review.advanced_synchronisation_constructs.deadlocks_starvations.deadlock_detection.Resource resource2) {
+    private static void accessResource(Resource resource1, Resource resource2) {
         while (true) {
             try {
                 if (resource1.tryLock(1, TimeUnit.SECONDS)) {
