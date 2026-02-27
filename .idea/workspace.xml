@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="" />
+    <list default="true" id="fe6beec8-a1c2-41e3-83a9-6783d57f62d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/AtomicExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/AtomicReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/BlockingQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/RaceConditionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/SafeMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/UnSafeMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/ABAProblemDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/CASExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/SpinLockExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,134 +31,54 @@
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="39QMZ5S2lUSg29mJBvvEtIbUxg3" />
+  <component name="ProjectId" id="3A8uHF3RyW7rvLKyjmqDPI8xmCL" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BankingApp.executor": "Run",
-    "Application.CountDownLatchExample.executor": "Run",
-    "Application.Counter.executor": "Run",
-    "Application.CounterWithReentrantLock.executor": "Run",
-    "Application.CounterWithTryLock.executor": "Run",
-    "Application.CurrentThreadExample.executor": "Run",
-    "Application.CyclicBarrierExample.executor": "Run",
-    "Application.DaemonThreadExample.executor": "Run",
-    "Application.DataStore.executor": "Run",
-    "Application.DeadlockExample.executor": "Run",
-    "Application.ExecutorServiceExample.executor": "Run",
-    "Application.ExecutorServiceExample2.executor": "Run",
-    "Application.ExecutorServiceExample4.executor": "Run",
-    "Application.ExecutorServiceExample5.executor": "Run",
-    "Application.ExecutorServiceExample6.executor": "Run",
-    "Application.ExecutorServiceExample8.executor": "Run",
-    "Application.ExecutorServiceThreadsExample.executor": "Run",
-    "Application.ForkJoinExample.executor": "Run",
-    "Application.GetNameSetNameExample.executor": "Run",
-    "Application.InheritableThreadLocalBasicExample.executor": "Run",
-    "Application.InterruptExample.executor": "Run",
-    "Application.IsAliveExample.executor": "Run",
-    "Application.JoinExample.executor": "Run",
-    "Application.LockExamples.executor": "Run",
-    "Application.LogWriter.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main2.executor": "Run",
+    "Application.ABAProblemDemo.executor": "Run",
+    "Application.AtomicExample.executor": "Run",
+    "Application.AtomicReferenceExample.executor": "Run",
+    "Application.BlockingQueueExample.executor": "Run",
+    "Application.BoundedQueueExample.executor": "Run",
+    "Application.CASExample.executor": "Run",
     "Application.NestedMonitorLockoutDemo.executor": "Run",
-    "Application.PlatformThreadsExample.executor": "Run",
-    "Application.RaceConditionsExample.executor": "Run",
-    "Application.RaceConditionsExample2.executor": "Run",
-    "Application.RaceConditionsExample3.executor": "Run",
-    "Application.RaceConditionsExample4.executor": "Run",
-    "Application.RaceConditionsExample5.executor": "Run",
+    "Application.RaceConditionExample.executor": "Run",
     "Application.ReentrantLockDemo.executor": "Run",
-    "Application.RunnableExample.executor": "Run",
-    "Application.SemaphoreExample.executor": "Run",
-    "Application.SeparateObjects.executor": "Run",
-    "Application.Server.executor": "Run",
-    "Application.SharedObjects.executor": "Run",
-    "Application.SleepAndInterrupt.executor": "Run",
-    "Application.StartAndRun.executor": "Run",
-    "Application.SyncCounterMain.executor": "Run",
-    "Application.SynchronizedExchangerMain.executor": "Run",
-    "Application.ThreadExample.executor": "Run",
-    "Application.ThreadExample10.executor": "Run",
-    "Application.ThreadExample2.executor": "Run",
-    "Application.ThreadExample3.executor": "Run",
-    "Application.ThreadExample5.executor": "Run",
-    "Application.ThreadExample6.executor": "Run",
-    "Application.ThreadExample7.executor": "Run",
-    "Application.ThreadExample8.executor": "Run",
-    "Application.ThreadExample9.executor": "Run",
-    "Application.ThreadLocalBasicExample.executor": "Run",
-    "Application.ThreadLocalInitialValueExample2.executor": "Run",
-    "Application.ThreadLocalLazyInitExample.executor": "Run",
-    "Application.ThreadLocalRemoveExample.executor": "Run",
-    "Application.ThreadMonitor.executor": "Run",
+    "Application.RejectionPolicyExample.executor": "Run",
+    "Application.SafeMapExample.executor": "Run",
+    "Application.ScheduledTaskExample.executor": "Run",
     "Application.ThreadPoolExecutorExample.executor": "Run",
-    "Application.ThreadPoolMain.executor": "Run",
-    "Application.ThreadPriorities.executor": "Run",
-    "Application.TimeWaitingExample.executor": "Run",
-    "Application.TryLockExample.executor": "Debug",
-    "Application.VirtualThreadExample.executor": "Run",
-    "Application.VirtualThreadExample2.executor": "Run",
-    "Application.VirtualThreadInLoops.executor": "Run",
-    "Application.WaitNotifyExample.executor": "Run",
-    "Application.WaitingExample.executor": "Run",
-    "Application.YieldExample.executor": "Run",
+    "Application.ThreadPoolWithWorkQueue.executor": "Run",
+    "Application.UnSafeMapExample.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/projects/java-multithreading",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+    "last_opened_file_path": "D:/projects/multithreading"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="concurrency.deadlock" />
-      <recent name="concurrency.threadlocal" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="785622e9-086c-49d5-b3b3-1a7b284428fe" name="Changes" comment="" />
-      <created>1770623894577</created>
+      <changelist id="fe6beec8-a1c2-41e3-83a9-6783d57f62d9" name="Changes" comment="" />
+      <created>1771986430539</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1770623894577</updated>
-      <workItem from="1771908356090" duration="1239000" />
-      <workItem from="1771915063519" duration="10651000" />
+      <updated>1771986430539</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

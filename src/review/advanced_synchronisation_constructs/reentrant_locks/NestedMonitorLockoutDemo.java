@@ -36,7 +36,7 @@ class LockoutExample {
 }
 
 
-public class NestedMonitorLockoutDemo {
+public class   NestedMonitorLockoutDemo {
     public static void main(String[] args) throws InterruptedException {
         LockoutExample example = new LockoutExample();
         Thread waitingThread = new Thread(example::waitForCondition);

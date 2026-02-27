@@ -24,8 +24,6 @@ class ReentrantLockExample {
             lock.unlock();
         }
     }
-
-
 }
 
 
@@ -33,7 +31,7 @@ public class ReentrantLockDemo {
     public static void main(String[] args) {
         ReentrantLockExample example = new ReentrantLockExample();
 
-        Thread thread = new Thread(() -> example.outerMethod());
+        Thread thread = new Thread(example::outerMethod);
         thread.start();
 
 
