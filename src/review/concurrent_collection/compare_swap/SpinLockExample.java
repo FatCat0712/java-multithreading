@@ -7,12 +7,7 @@ class SpinLock{
 
     public void lock() {
         while(!lock.compareAndSet(false, true)) {
-//            Busy-wait until the lock is acquired
-            /*
-            * when there's thread holding lock -> real value: true -> false -> true -> retrying
-            * when there's no thread holding lock -> real value: false -> true -> false
-            *
-            * */
+//           loop until the lock is acquired
         }
     }
 

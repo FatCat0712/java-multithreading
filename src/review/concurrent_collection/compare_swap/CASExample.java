@@ -21,7 +21,7 @@ class Counter {
 }
 
 
-public class CASExample {
+public class  CASExample {
     public static void main(String[] args) {
         Counter counter = new Counter();
 

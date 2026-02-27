@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe6beec8-a1c2-41e3-83a9-6783d57f62d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/AtomicExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/AtomicReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/BlockingQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/RaceConditionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/SafeMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/UnSafeMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/ABAProblemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/CASExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/SpinLockExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/false_sharing/FalseSharingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/test_debugging/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/test_debugging/RaceConditionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/CASExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/CASExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/SpinLockExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/SpinLockExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +41,7 @@
     "Application.BlockingQueueExample.executor": "Run",
     "Application.BoundedQueueExample.executor": "Run",
     "Application.CASExample.executor": "Run",
+    "Application.FalseSharingDemo.executor": "Run",
     "Application.NestedMonitorLockoutDemo.executor": "Run",
     "Application.RaceConditionExample.executor": "Run",
     "Application.ReentrantLockDemo.executor": "Run",
@@ -64,6 +61,11 @@
     "last_opened_file_path": "D:/projects/multithreading"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\java-multithreading\src\review\test_debugging" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

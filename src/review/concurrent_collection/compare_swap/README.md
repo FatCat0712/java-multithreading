@@ -45,3 +45,28 @@ for a CAS operation to succeed
 is also updated.
 * <b>CAS Operation</b>: The CAS Operation now checks both the value and the stamp. This way, even if the value
 reverts to its original state, the stamp will differ, indicating that a change occurred
+
+### Impact of False Sharing
+* Performance Degradation
+False sharing leads to frequent cache invalidations, resulting in high memory
+traffic and reduced performance.
+
+* This impact is especially significant in applications with many threads updating
+independent variables stored in the same cache line.
+
+#### Resolving False Sharing
+* Technique 1: Padding
+One of the simplest ways to resolve false sharing is to add dummy padding variables
+between counters to ensure they are stored in separate cache lines
+
+* Technique 2: Using @Contend Annotation
+Java 8 introduced the @Contended annotation explicitly prevent false sharing. This annotation
+tells the JVM to place the annotated field in its own cache line
+
+To use it, you must enable the JVM option-XX:-RestrictContended
+
+#### Best Practises to Avoid False Sharing
+* Profile your application to identify performance bottlenecks by false sharing.
+* Design data structures to minimize cache line sharing for frequently updated variables.
+* Use padding or the @Contended annotation for thread-local variables in the multithreaded applications.
+* Test performance improvements with different resolutions to choose the best strategy.
