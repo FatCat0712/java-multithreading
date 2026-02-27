@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe6beec8-a1c2-41e3-83a9-6783d57f62d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/review/executor_service/BoundedQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/executor_service/RejectionPolicyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/executor_service/ScheduledTaskExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/executor_service/ThreadPoolWithWorkQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/reentrant_locks/NestedMonitorLockoutDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/reentrant_locks/NestedMonitorLockoutDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/reentrant_locks/ReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/advanced_synchronisation_constructs/reentrant_locks/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/AtomicExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/AtomicReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/BlockingQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/RaceConditionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/SafeMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/UnSafeMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/ABAProblemDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/CASExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/concurrent_collection/compare_swap/SpinLockExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +39,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ABAProblemDemo.executor": "Run",
+    "Application.AtomicExample.executor": "Run",
+    "Application.AtomicReferenceExample.executor": "Run",
+    "Application.BlockingQueueExample.executor": "Run",
     "Application.BoundedQueueExample.executor": "Run",
+    "Application.CASExample.executor": "Run",
     "Application.NestedMonitorLockoutDemo.executor": "Run",
+    "Application.RaceConditionExample.executor": "Run",
     "Application.ReentrantLockDemo.executor": "Run",
     "Application.RejectionPolicyExample.executor": "Run",
+    "Application.SafeMapExample.executor": "Run",
     "Application.ScheduledTaskExample.executor": "Run",
     "Application.ThreadPoolExecutorExample.executor": "Run",
     "Application.ThreadPoolWithWorkQueue.executor": "Run",
+    "Application.UnSafeMapExample.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
